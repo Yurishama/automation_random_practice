@@ -1,7 +1,7 @@
 *** Variables ***
-${url_base}                     https://todomvc.com/examples/angular2/
-${page_header_text}             todos
-${input_field}                  xpath=/html/body/todo-app/section/header/input
+${url_base}                     https://todomvc.com/examples/angular/dist/browser/#/all
+${page_header_text}             Todos
+${input_field}                  xpath=/html/body/app-root/section/app-todo-header/header/input
 ${todo_list}                    xpath=/html/body/todo-app/section/section/ul
 ${task_1}                       Exercise
 ${task_2}                       Yoga session
